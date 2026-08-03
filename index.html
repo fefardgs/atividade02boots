@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Store</title>
+
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<!-- ================= BANNER ================= -->
+<div class="container-fluid bg-dark text-white text-center py-4">
+  <h2>💻 Tech Store</h2>
+  <small>Projeto utilizando todos os containers do Bootstrap</small>
+</div>
+
+<!-- ================= QUEM SOMOS ================= -->
+<div class="container my-4">
+  <div class="bg-white p-4 rounded shadow-sm">
+    <h5 class="text-primary">Quem Somos</h5>
+    <p>Somos uma loja especializada em computadores, notebooks, acessórios e tecnologia.</p>
+    <div class="alert alert-primary p-2">
+      Este conteúdo está dentro de um <strong>.container</strong>
+    </div>
+  </div>
+</div>
+<!-- ================= PRODUTOS ================= -->
+<div class="container-sm my-4">
+
+  <div class="bg-success bg-opacity-25 p-3 rounded">
+    <h5 class="text-center text-success mb-3">Produtos em Destaque</h5>
+
+    <div class="row g-3">
+
+      <!-- Notebook Gamer (Corrigido) -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf-y22rPAc74MfUbG-TafOEKS82_BldVQh6y5ll54O-w&s=10" class="card-img-top" alt="Notebook gamer">
+          <div class="card-body">
+            <h6>Notebook Gamer</h6>
+            <p class="small">Alto desempenho para jogos e programação.</p>
+            <button class="btn btn-success btn-sm">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Monitor -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJYB1Lhpaemqd8IozqdovPyMNNT9-oDPnSkAOCZGOjg&s=10" class="card-img-top" alt="Imagem Monitor">
+          <div class="card-body">
+            <h6>Monitor 27"</h6>
+            <p class="small">Tela Full HD para estudos e trabalho.</p>
+            <button class="btn btn-success btn-sm">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Teclado -->
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGm_uzNkDyidQ6EYkEPLll5UvW8QyBADhVjGK9oWxFDg&s=10" class="card-img-top" alt="teclado mecanico">
+          <div class="card-body">
+            <h6>Teclado Mecânico</h6>
+            <p class="small">RGB com switches mecânicos.</p>
+            <button class="btn btn-success btn-sm">Comprar</button>
+          </div>
+        </div>
+      </div>
+
+    </div> 
+  </div> 
+</div> 
+
+<!-- ================= TABELA ================= -->
+<div class="container-md my-4">
+  <div class="bg-warning bg-opacity-25 p-3 rounded">
+    <h5 class="text-warning">Tabela de Produtos</h5>
+
+    <table class="table table-striped mt-2">
+      <thead class="table-dark">
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Estoque</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Notebook</td>
+          <td>R$ 4.999</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>Monitor</td>
+          <td>R$ 1.200</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td>Mouse Gamer</td>
+          <td>R$ 250</td>
+          <td>45</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ================= SERVIÇOS ================= -->
+<div class="container-lg rounded-5 my-4">
+  <div class="bg-info bg-opacity-25 p-3 rounded">
+    <h5 class="text-info">Nossos Serviços</h5>
+
+    <div class="row text-center  mt-3 g-2">
+      <div class="col-12 col-md-6 col-lg-3 ">
+        <div class="border p-2  rounded-3 bg-white">💻 Montagem de PCs</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="border p-2 rounded-3 bg-white">🔧 Assistência Técnica</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="border p-2 rounded-3 bg-white">🚚 Entrega</div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="border p-2 rounded-3 bg-white">☁️ Backup em Nuvem</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ================= FORMULÁRIO ================= -->
+<div class="container-xl my-4">
+  <div class="bg-white p-4 rounded shadow-sm">
+    <h5>Fale Conosco</h5>
+
+    <form>
+      <input class="form-control mb-2" placeholder="Nome">
+      <input class="form-control mb-2" placeholder="E-mail">
+      <textarea class="form-control mb-2" rows="3" placeholder="Mensagem"></textarea>
+      <button class="btn btn-secondary btn-sm">Enviar</button>
+    </form>
+  </div>
+</div>
+
+<!-- ================= RODAPÉ ================= -->
+<div class="container-xxl bg-dark text-white text-center p-3">
+  <h6>Tech Store</h6>
+  <small>Projeto desenvolvido utilizando Bootstrap 5.</small>
+</div>
+
+</body>
+</html>
